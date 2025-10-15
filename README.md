@@ -26,3 +26,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learned how to build a router in LangGraph using conditional edges. This allows agent to intelligently decide its next action by inspecting the output of a tool. Instead of following a fixed path ,now create dynamic workflows that loop or branch.
  - **Tweak:** Not much of tweaking was required just changed the input text multiplication and used langgraph studio.
  - **Source Code:** [M1L5_router.ipynb](M1L5_router.ipynb)
+
+ ### LESSON 6: Agents
+ - **Learned:** I learned how to build a complete agent that can solve problems requiring multiple steps. I did this by creating a loop where the AI can use the result from one tool to decide on the next action. I was then able to trace the agent's entire step by step process in LangSmith until it reached the final answer.
+ - **Tweak:** I changed the AI's step by step plan which created a new flowchart showing its workflow. Also changed the question to test how my new version would solve a different problem.
+ - **Source Code:** [M1L6_agents.ipynb](M1L6_agents.ipynb)
