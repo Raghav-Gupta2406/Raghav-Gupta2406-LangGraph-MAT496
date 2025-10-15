@@ -21,3 +21,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** My core lesson was learning how to build a LangGraph chain and get it to properly use custom tools. I now understand how to bind tools to the language model and make the graph execute tool calls as part of its workflow.
  - **Tweak:** I replaced the default tool-calling cell with a custom web search tool that I built myself. To do this, I tweaked the code so my new tool would use the Serper and Tavily APIs for performing live searches.
  - **Source Code:** [M1L4_chains.ipynb](M1L4_chains.ipynb)
+
+ ### LESSON 5: Router
+ - **Learned:** I learned how to build a router in LangGraph using conditional edges. This allows agent to intelligently decide its next action by inspecting the output of a tool. Instead of following a fixed path ,now create dynamic workflows that loop or branch.
+ - **Tweak:** Not much of tweaking was required just changed the input text multiplication and used langgraph studio.
+ - **Source Code:** [M1L5_router.ipynb](M1L5_router.ipynb)
