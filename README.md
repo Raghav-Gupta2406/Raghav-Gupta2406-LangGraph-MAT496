@@ -31,3 +31,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learned how to build a complete agent that can solve problems requiring multiple steps. I did this by creating a loop where the AI can use the result from one tool to decide on the next action. I was then able to trace the agent's entire step by step process in LangSmith until it reached the final answer.
  - **Tweak:** I changed the AI's step by step plan which created a new flowchart showing its workflow. Also changed the question to test how my new version would solve a different problem.
  - **Source Code:** [M1L6_agents.ipynb](M1L6_agents.ipynb)
+
+ ### LESSON 7: Agent Memory
+ - **Learned:**The key lesson is that LangGraph agents are stateless by default, but adding a checkpointer during compilation and using a thread_id at runtime gives them memory to handle multi-turn conversations.
+ - **Tweak:** The tweaks involved changing the input text to test this memory and using LangGraph Studio to visualize the agent's execution flow.
+ - **Source Code:** [M1L7_agent-memory.ipynb](M1L7_agent-memory.ipynb)
