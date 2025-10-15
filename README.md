@@ -13,3 +13,6 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learned I can control which path the graph takes just by changing the logic in a decision step. I also learned the final message is built piece by piece with each node adding its own specific words to the story.
  - **Tweak:** I tweaked the random probability to control the path and changed the node text to a new weather theme.
  - **Source Code:** [M1L2_simple-graph.ipynb](M1L2_simple-graph.ipynb)
+
+ ### LESSON 3: LangGraph Studio
+ - **Learned:** After I ran my studio project, it automatically opened in my browser through LangSmith and displayed the output graph for video 2, lesson 2. For testing purposes, I entered the input text “Hi, this is Raghav” to check the response. The system processed it correctly. Since the task didn’t require any specific modifications, I didn’t make any changes to the code as no code was provided.
