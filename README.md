@@ -16,3 +16,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
 
  ### LESSON 3: LangGraph Studio
  - **Learned:** After I ran my studio project, it automatically opened in my browser through LangSmith and displayed the output graph for video 2, lesson 2. For testing purposes, I entered the input text “Hi, this is Raghav” to check the response. The system processed it correctly. Since the task didn’t require any specific modifications, I didn’t make any changes to the code as no code was provided.
+
+ ### LESSON 4: Chain
+ - **Learned:** My core lesson was learning how to build a LangGraph chain and get it to properly use custom tools. I now understand how to bind tools to the language model and make the graph execute tool calls as part of its workflow.
+ - **Tweak:** I replaced the default tool-calling cell with a custom web search tool that I built myself. To do this, I tweaked the code so my new tool would use the Serper and Tavily APIs for performing live searches.
+ - **Source Code:** [M1L4_chains.ipynb](M1L4_chains.ipynb)
