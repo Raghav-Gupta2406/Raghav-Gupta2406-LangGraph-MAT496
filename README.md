@@ -33,6 +33,12 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Source Code:** [M1L6_agents.ipynb](M1L6_agents.ipynb)
 
  ### LESSON 7: Agent Memory
- - **Learned:**The key lesson is that LangGraph agents are stateless by default, but adding a checkpointer during compilation and using a thread_id at runtime gives them memory to handle multi-turn conversations.
+ - **Learned:** The key lesson is that LangGraph agents are stateless by default, but adding a checkpointer during compilation and using a thread_id at runtime gives them memory to handle multi-turn conversations.
  - **Tweak:** The tweaks involved changing the input text to test this memory and using LangGraph Studio to visualize the agent's execution flow.
  - **Source Code:** [M1L7_agent-memory.ipynb](M1L7_agent-memory.ipynb)
+
+ ## MODULE 2
+ ### LESSON 1: State Schema
+ - **Learned:** I learnt about typed state schemas, typeddict, dataclass, pydantic, which lets every node share a consistent contact so langGraph graphs stay predictable.
+ - **Tweak:** Changed the mood to status channel with new "frustrated" or "chill" values.
+ - **Source Code:** [M2L1_state-schema.ipynb](M2L1_state-schema.ipynb)
