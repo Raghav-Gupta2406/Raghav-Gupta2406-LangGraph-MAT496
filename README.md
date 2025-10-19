@@ -42,3 +42,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learnt about typed state schemas, typeddict, dataclass, pydantic, which lets every node share a consistent contact so langGraph graphs stay predictable.
  - **Tweak:** Changed the mood to status channel with new "frustrated" or "chill" values.
  - **Source Code:** [M2L1_state-schema.ipynb](M2L1_state-schema.ipynb)
+
+  ### LESSON 2: State Reducers
+ - **Learned:** I found out that reducers allow parallel nodes to combine updates safely, keeping the state predictable. I also learned that annotated keys can switch between overwrite, append, or custom merge modes without needing to rewrite the nodes.
+ - **Tweak:** I changed the content in removal for AI message.
+ - **Source Code:** [M2L2_state-reducers.ipynb](M2L2_state-reducers.ipynb)
