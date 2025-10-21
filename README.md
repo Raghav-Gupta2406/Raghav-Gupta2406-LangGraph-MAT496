@@ -52,3 +52,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learned that a private state lets nodes pass working data to each other without changing the final result.I also saw how to use separate schemas to filter the graph's input and output, while an internal schema holds all the working fields for logic.
  - **Tweak:** Changed the question and the final answer from the given code.
  - **Source Code:** [M2L3_multiple-schemas.ipynb](M2L3_multiple-schemas.ipynb)
+
+  ### LESSON 4: Trim Filter Messages
+ - **Learned:** I learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn, also learnt about maintaining a consistent message channel lets us reshape the chat thread without breaking LangGraph structure.
+ - **Tweak:**  I relaced working list names with conversation_log and chat_thread so the code is more readable and also updated every invocation of these in the code.
+ - **Source Code:** [M2L4_TrimMessages.ipynb](M2L4_TrimMessages.ipynb)
