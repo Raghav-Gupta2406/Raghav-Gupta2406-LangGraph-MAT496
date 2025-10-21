@@ -47,3 +47,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I found out that reducers allow parallel nodes to combine updates safely, keeping the state predictable. I also learned that annotated keys can switch between overwrite, append, or custom merge modes without needing to rewrite the nodes.
  - **Tweak:** I changed the content in removal for AI message.
  - **Source Code:** [M2L2_state-reducers.ipynb](M2L2_state-reducers.ipynb)
+
+  ### LESSON 3: Multiple Schemas
+ - **Learned:** I learned that a private state lets nodes pass working data to each other without changing the final result.I also saw how to use separate schemas to filter the graph's input and output, while an internal schema holds all the working fields for logic.
+ - **Tweak:** Changed the question and the final answer from the given code.
+ - **Source Code:** [M2L3_multiple-schemas.ipynb](M2L3_multiple-schemas.ipynb)
