@@ -57,3 +57,9 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn, also learnt about maintaining a consistent message channel lets us reshape the chat thread without breaking LangGraph structure.
  - **Tweak:**  I relaced working list names with conversation_log and chat_thread so the code is more readable and also updated every invocation of these in the code.
  - **Source Code:** [M2L4_TrimMessages.ipynb](M2L4_TrimMessages.ipynb)
+
+  ### LESSON 5: Chatbot with Summarizing Messages and History
+ - **Learned:** I learned that filtering and trimming the message history is a good way to create a summary. This summary makes it possible to stop the conversation and easily resume it later right where we left off.
+ - **Tweak:** I made a few adjustments to the project. First I changed the summary in the state schema to hold a number (int) instead of text (str). 
+ I noticed a bug after making these changes. Even when I cleared the old conversation and started the new math chat, the summary feature didn't properly reset. It still remembered the old summary and just added the new math inputs on top of it, which wasn't the intended result.
+ - **Source Code:** [M2L5_chatbot-summarization.ipynb](M2L5_chatbot-summarization.ipynb)
