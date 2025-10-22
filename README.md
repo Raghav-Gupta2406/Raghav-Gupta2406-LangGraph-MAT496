@@ -63,3 +63,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Tweak:** I made a few adjustments to the project. First I changed the summary in the state schema to hold a number (int) instead of text (str). 
  I noticed a bug after making these changes. Even when I cleared the old conversation and started the new math chat, the summary feature didn't properly reset. It still remembered the old summary and just added the new math inputs on top of it, which wasn't the intended result.
  - **Source Code:** [M2L5_chatbot-summarization.ipynb](M2L5_chatbot-summarization.ipynb)
+
+ ### LESSON 6: Chatbot with Summarizing Messages and External Memory
+ - **Learned:** I explored how connecting the chat to an external database is essential for memory. This setup saves the conversation summary and context, allowing us to close a session and return later without losing the entire history. This continuous memory is what makes effective, long-term summarization possible.
+ - **Tweak:** I made two main adjustments to the project. First, I changed the message handling process from "filtering" to "trimming" to experiment and see how their efficiency differed. Second, I updated the logic for when a summary is created, switching it from the old method to a new one that triggers based on the total token count.
+ - **Source Code:** [M2L6_chatbot-external-memory.ipynb](M2L6_chatbot-external-memory.ipynb)
