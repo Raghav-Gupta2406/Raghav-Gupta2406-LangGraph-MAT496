@@ -68,3 +68,9 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I explored how connecting the chat to an external database is essential for memory. This setup saves the conversation summary and context, allowing us to close a session and return later without losing the entire history. This continuous memory is what makes effective, long-term summarization possible.
  - **Tweak:** I made two main adjustments to the project. First, I changed the message handling process from "filtering" to "trimming" to experiment and see how their efficiency differed. Second, I updated the logic for when a summary is created, switching it from the old method to a new one that triggers based on the total token count.
  - **Source Code:** [M2L6_chatbot-external-memory.ipynb](M2L6_chatbot-external-memory.ipynb)
+
+ ## MODULE 3
+ ### LESSON 1: Streaming
+ - **Learned:** I learned the fundamentals of how streaming works and explored the different methods, specifically the distinction between streaming updates and streaming values. I also figured out how to stream inputs directly from a graph within the LangSmith environment.
+ - **Tweak:** I experimented by adding a new input to both the updates and values streams to observe how the output changed.
+ - **Source Code:** [M3L1_streaming-interruption.ipynb](M3L1_streaming-interruption.ipynb)
