@@ -74,3 +74,9 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I learned the fundamentals of how streaming works and explored the different methods, specifically the distinction between streaming updates and streaming values. I also figured out how to stream inputs directly from a graph within the LangSmith environment.
  - **Tweak:** I experimented by adding a new input to both the updates and values streams to observe how the output changed.
  - **Source Code:** [M3L1_streaming-interruption.ipynb](M3L1_streaming-interruption.ipynb)
+
+ ### LESSON 2: Breakpoints
+ - **Learned:** I learnt how a breaking point works and how we can use it. I also learnt how to add a new tool, how to add the breaking point to it
+  and how to use the breaking point from the studio manually using the code.
+ - **Tweak:** I added a new tool power to it. I added a cell at the end and in the studio I asked a question to the LLM.
+ - **Source Code:** [M3L2_breakpoints.ipynb](M3L2_breakpoints.ipynb)
