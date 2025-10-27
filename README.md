@@ -90,3 +90,8 @@ This repository documents my progress through Modules 1, 2 and 3 of the LangGrap
  - **Learned:** I learned that breaking point is not like interrupt_before or interrupt_after. It works more like a limit when something crosses that limit it stops the process. This is very useful for saving tokens and controlling execution in our code.
  - **Tweak:** I added one more interruption in node 1 to check if the input is greater than 9. Then I added a new cell because if we are interrupting twice we need to change our input twice when it crosses both thresholds 4 and 9.
  - **Source Code:** [M3L4_dynamic-breakpoints.ipynb](M3L4_dynamic-breakpoints.ipynb)
+
+ ### LESSON 5: Time Travel
+ - **Learned:** I have learned to debug by manually adding code instead of just using an IDE built in tools. This new method let us trace different execution paths, replay errors to find their source, and examine every possible state of the program.
+ - **Tweak:** I updated the graph and made my own graph where we calculate the temperature from celcius to farheineit. Then I made a new thread so it doesn’t get mixed up. 
+ - **Source Code:** [M3L5_time-travel.ipynb](M3L5_time-travel.ipynb)
