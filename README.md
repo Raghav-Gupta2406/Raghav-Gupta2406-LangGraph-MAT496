@@ -80,3 +80,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
   and how to use the breaking point from the studio manually using the code.
  - **Tweak:** I added a new tool power to it. I added a cell at the end and in the studio I asked a question to the LLM.
  - **Source Code:** [M3L2_breakpoints.ipynb](M3L2_breakpoints.ipynb)
+
+ ### LESSON 3: Editing State and Human Feedback
+ - **Learned:** I have learned how to manage the graphs flow by using interrupt_before to alter a nodes input, which also provides a way to insert human feedback at specific breakpoints. I also now understand how checkpointers are used to save the graphs current state so it can be reloaded later.
+ - **Tweak:**  I added an interrupt_before in front of the tools node to observe what happens. I created a graph that includes interrupt_after for tools and executed it to compare behavior.
+ - **Source Code:** [M3L3_edit-state-human-feedback.ipynb](M3L3_edit-state-human-feedback.ipynb)
