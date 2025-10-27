@@ -1,7 +1,7 @@
 # Raghav-Gupta2406-LangGraph-MAT496
 ## LangGraph Course Assignment for MAT496
 
-This repository documents my progress through Modules 1 of the LangGraph course, fulfilling the requirements for video-by-video commits, learning summaries, and unique code examples.
+This repository documents my progress through Modules 1, 2 and 3 of the LangGraph course, fulfilling the requirements for video-by-video commits, learning summaries, and unique code examples.
 
 ## MODULE 1
 
@@ -85,3 +85,8 @@ This repository documents my progress through Modules 1 of the LangGraph course,
  - **Learned:** I have learned how to manage the graphs flow by using interrupt_before to alter a nodes input, which also provides a way to insert human feedback at specific breakpoints. I also now understand how checkpointers are used to save the graphs current state so it can be reloaded later.
  - **Tweak:**  I added an interrupt_before in front of the tools node to observe what happens. I created a graph that includes interrupt_after for tools and executed it to compare behavior.
  - **Source Code:** [M3L3_edit-state-human-feedback.ipynb](M3L3_edit-state-human-feedback.ipynb)
+
+ ### LESSON 4: Dynamic Breakpoints
+ - **Learned:** I learned that breaking point is not like interrupt_before or interrupt_after. It works more like a limit when something crosses that limit it stops the process. This is very useful for saving tokens and controlling execution in our code.
+ - **Tweak:** I added one more interruption in node 1 to check if the input is greater than 9. Then I added a new cell because if we are interrupting twice we need to change our input twice when it crosses both thresholds 4 and 9.
+ - **Source Code:** [M3L4_dynamic-breakpoints.ipynb](M3L4_dynamic-breakpoints.ipynb)
