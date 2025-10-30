@@ -95,3 +95,9 @@ This repository documents my progress through Modules 1, 2 and 3 of the LangGrap
  - **Learned:** I have learned to debug by manually adding code instead of just using an IDE built in tools. This new method let us trace different execution paths, replay errors to find their source, and examine every possible state of the program.
  - **Tweak:** I updated the graph and made my own graph where we calculate the temperature from celcius to farheineit. Then I made a new thread so it doesn’t get mixed up. 
  - **Source Code:** [M3L5_time-travel.ipynb](M3L5_time-travel.ipynb)
+
+ ## MODULE 4
+ ### LESSON 1: Parrallelization
+ - **Learned:** This lesson was on parallelization which I learned just means running multiple nodes at once. I found out that the output gets combined randomly unless you make a custom function to control the order. I applied this by using Tavily to search both the web and Wikipedia at the same time.
+ - **Tweak:** To test it, I started with 'start' then went to node a. From a I made three parallel paths one to b, one through c then c1 and another through d, d2, then d3. All of those then converged into e before hitting 'end'. This let me see how parallelization works with different chain lengths, and I tried out some prompt changes too.
+ - **Source Code:** [M4L1_parallelization.ipynb](M4L1_parallelization.ipynb)
