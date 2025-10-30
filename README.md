@@ -101,3 +101,8 @@ This repository documents my progress through Modules 1, 2 and 3 of the LangGrap
  - **Learned:** This lesson was on parallelization which I learned just means running multiple nodes at once. I found out that the output gets combined randomly unless you make a custom function to control the order. I applied this by using Tavily to search both the web and Wikipedia at the same time.
  - **Tweak:** To test it, I started with 'start' then went to node a. From a I made three parallel paths one to b, one through c then c1 and another through d, d2, then d3. All of those then converged into e before hitting 'end'. This let me see how parallelization works with different chain lengths, and I tried out some prompt changes too.
  - **Source Code:** [M4L1_parallelization.ipynb](M4L1_parallelization.ipynb)
+
+ ### LESSON 2: Sub-Graph
+ - **Learned:** I learnt how sub-graphs work their states and their use it allows us to create and manage different states in different parts of our graph. I also learnt how to add subgraphs to their parent graph and how to use reducers to prevent collision. Also did tracing with langsmith.
+ - **Tweak:** Though their was nothing much to change in the code I still added a code cell to write an example by my own demonstrating sub graphs.
+ - **Source Code:** [M4L2_sub-graph.ipynb](M4L2_sub-graph.ipynb)
