@@ -106,3 +106,8 @@ This repository documents my progress through Modules 1, 2 and 3 of the LangGrap
  - **Learned:** I learnt how sub-graphs work their states and their use it allows us to create and manage different states in different parts of our graph. I also learnt how to add subgraphs to their parent graph and how to use reducers to prevent collision. Also did tracing with langsmith.
  - **Tweak:** Though their was nothing much to change in the code I still added a code cell to write an example by my own demonstrating sub graphs.
  - **Source Code:** [M4L2_sub-graph.ipynb](M4L2_sub-graph.ipynb)
+
+ ### LESSON 3: Map Reduce
+ - **Learned:** I learnt how mapping basically works by breaking a problem into small sub problems and then parallelly processing them, then we aggregate the result across the the parallelized sub tasks. This is used as it is very efficient way. And then we saw a demonstration on studio.
+ - **Tweak:** I changed the 5 jokes and select the best to add 4 trivias and then select the best out of these.
+ - **Source Code:** [M4L3_map-reduce.ipynb](M4L3_map-reduce.ipynb)
