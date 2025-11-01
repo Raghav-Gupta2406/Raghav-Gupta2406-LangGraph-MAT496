@@ -111,3 +111,8 @@ This repository documents my progress through Modules 1, 2 and 3 of the LangGrap
  - **Learned:** I learnt how mapping basically works by breaking a problem into small sub problems and then parallelly processing them, then we aggregate the result across the the parallelized sub tasks. This is used as it is very efficient way. And then we saw a demonstration on studio.
  - **Tweak:** I changed the 5 jokes and select the best to add 4 trivias and then select the best out of these.
  - **Source Code:** [M4L3_map-reduce.ipynb](M4L3_map-reduce.ipynb)
+
+ ### LESSON 4: Research Assistant
+ - **Learned:** I tied together what I've learned about running nodes in parallel by fanning out and fanning in. We saw how to use a reducer to append parallel updates to a list, which avoids errors and even lets us set the execution order. I then applied this knowledge to build a small-scale research assistant. This agent uses parallel analysts and experts to research sub-topics, then uses a reducer to fan in all their findings and generate a final report summary.
+ - **Tweak:**  I changed the research topic to risk and opportunities in investing , changed some prompts too in some cells.
+ - **Source Code:** [M4L4_research-assistant.ipynb](M4L4_research-assistant.ipynb)
